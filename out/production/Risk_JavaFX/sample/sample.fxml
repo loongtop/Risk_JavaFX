@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import java.awt.Image?>
+<?import javafx.scene.image.ImageView?>
+<GridPane alignment="center" hgap="10" prefHeight="315.0" prefWidth="636.0" vgap="10"
+          xmlns="http://javafx.com/javafx/15.0.1"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="sample.GameStatus">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

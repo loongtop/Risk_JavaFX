@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FrontPage.FPController">
+    <children>
+        <ImageView fitHeight="318.0" fitWidth="577.0" layoutX="10.0" layoutY="10.0">
+            <image>
+                <Image url="@../../../../../out/production/Risk_JavaFX/sample/FrontPage/RISK.png" />
+            </image>
+        </ImageView>
+
+        <Button layoutX="135.0" layoutY="346.0" mnemonicParsing="false" onAction="#Start_Game" text="start"
+                fx:id="btn_start"/>
+        <Button layoutX="261.0" layoutY="346.0" mnemonicParsing="false" onAction="#Load_Game" text="load"
+                fx:id="btn_load"/>
+        <Button layoutX="420.0" layoutY="346.0" mnemonicParsing="false" onAction="#Quit_Game" text="quit"
+                fx:id="btn_quit"/>
+
+    </children>
+
+</AnchorPane>
